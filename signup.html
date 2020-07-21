@@ -6,23 +6,25 @@
     <title>회원가입 페이지</title>
 </head>
 <body>
-    <input type="text" name="id" placeholder="아이디 입력"/>
-    <br/><br/>
-    <input type="text" name="passwd" placeholder="비밀번호 입력"/>
-    <br/><br/>
-    <label for="passwd_question">비밀번호 질문</label>
-    <select name="비밀번호 질문" id="passwd_question">
-        <option>내가 졸업한 초등학교는?</option>
-        <option>나의 첫 반려동물은?</option>
-        <option>부모님이 처음 만난 도시는?</option>
-        <option>나의 어릴 적 별명은?</option>
-    </select>
-    <input type="text" name="passwd_answer" placeholder="답변"/>
-    <br/><br/>
-    <textarea name="introduce" rows="10" cols="50">자기소개 작성</textarea>
-    <br/><br/>
-    <button name="signup" type="submit">
-        회원가입
-    </button>
+    <form action="#" mehtod="POST">
+        <input type="text" name="id" placeholder="아이디 입력"/>
+        <br/><br/>
+        <input type="text" name="passwd" placeholder="비밀번호 입력"/>
+        <br/><br/>
+        <label for="passwd_question">비밀번호 질문</label>
+        <select name="비밀번호 질문" id="passwd_question">
+            <option>내가 졸업한 초등학교는?</option>
+            <option>나의 첫 반려동물은?</option>
+            <option>부모님이 처음 만난 도시는?</option>
+            <option>나의 어릴 적 별명은?</option>
+        </select>
+        <input type="text" name="passwd_answer" placeholder="답변"/>
+        <br/><br/>
+        <textarea name="introduce" rows="10" cols="50">자기소개 작성</textarea>
+        <br/><br/>
+        <button name="signup" type="submit">
+            회원가입
+        </button>
+    </form>
 </body>
 </html>
